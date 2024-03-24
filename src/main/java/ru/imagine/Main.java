@@ -2,9 +2,11 @@ package ru.imagine;
 
 public class Main {
 
-private static String msg = "!!!!";
+public static void main(String[] args) {
+    System.out.println(getMessage());
+}
 
-    public static void main(String[] args) {
-        System.out.println(msg);
+    private static String getMessage() {
+        return "Hello QAguru!!!!";
     }
 }
